@@ -1,2 +1,130 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <img src="logo.png" alt="logo">
+          <header>
+            <h1>HTML Elements</h1>
+          </header>
+          <nav>
+            <a href="1.html">HOME</a> | <a href="2.html">Headers</a> | <a href="3.html">Table</a> | <a href="4.html">List</a> | <a href="5.html">Text formats</a> | <a href="6.html">Blockquotes</a>
+          </nav>
+          <p>
+            Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header
+          </p>
+          <article>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <h6>Header 6</h6>
+          </article>
+          <p>Lorem ipsum dolor sit amet, test link adipiscing elit. This is strong. Nullam dignissim convallis est. Quisque aliquam. This is emphasized. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation).Underline. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+          </p>
+          <p>HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY filename. Dinner`s at 5:00. Let’s make that 7. This text has been struck.
+          </p>
+          <table border="1">
+            <caption>TABLE</caption>
+            <tr>
+             <th>Header</th>
+             <th>Header</th>
+             <th>Header</th>
+            </tr>
+            <tr><td>Lviv</td><td>Kyiv</td><td>Kharkiv</td></tr>
+            <tr><td>Odessa</td><td>Zhytomyr</td><td>Dnipropetrovsk</td></tr>
+            <tr><td>Sumy</td><td>Chernivtsi</td><td>Lutsk</td></tr>
+          </table>
+          <p><b>UNORDERED LIST</b></p>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+              <ul>
+                <li>Some nested list item 1</li>
+              </ul>
+            <li>List item 3</li>
+          </ul>
+          <p><b>ORDERED LIST</b></p>
+          <ol>
+            <dt>1. List item 1</dt>
+            <dt>2. List item 2</dt>
+              <dd>A. Some nested list item 1</dd>
+            <dt>3. List item 3</dt>
+          </ol>
+          <p>Definition List</p>
+          <dl>
+            <dt>defines terms 1</dt>
+            <dd>description 1</dd>
+            <dt>defines terms 2</dt>
+            <dd>description 
+            </dd>
+          </dl>
+          
+          <details>
+            <summary>Details</summary>
+            HTML
+            CSS
+            JS
+          </details>
+          <h1>Text formats</h1>
+          <h2>Article Text</h2>
+          <h1>Article title</h1>
+          <p>Article description</p>
+          <h3><b>Preformatted Text</b></h3>
+          <pre>
+            Text
+              in a pre element
+                is displayed in a fixed-width
+             font, and it preserves
+             both           spaces and
+                  line breaks
+
+          </pre>
+          <h3><b>Code</b></h3>
+          <pre>
+            .wrapper {
+              display: flex;
+                vertical-align: middle;
+                justify-content: center;
+               }
+          </pre>
+          <h2><b>Blockquotes</b></h2>
+          <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+          <blockquote>
+            "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."            
+          </blockquote>
+          <figcaption>Elon Musk</figcaption>
+          <input type="text" id="fname" name="firstname" placeholder="First name : "> 
+          <input type="text" id="lname" name="lastname" placeholder="Surname : "> 
+          <div class="row">    
+            <div class="col-25">    
+              <label for="email">Mail Id</label>    
+            </div>    
+            <div class="col-75">    
+              <input type="email" id="email" name="mailid" placeholder="Email : ">    
+            </div>    
+          </div> 
+          <div class="row">    
+            <input type="submit" value="Submit">    
+          </div>
+
+          <footer>© Copyright Epam Systems</footer>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
